@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 
-.navbar, .navbar-list, .pages-navbar, main, .home-container, footer {
+.navbar, .navbar-list, .pages-navbar, main, .container, footer {
   display: flex;
 }
 
@@ -52,7 +52,7 @@ main {
 
 } */
 
-.home-img {
+.home-img, .contact-img, .about-img {
   height: 65vh;
   width: auto;
 }
