@@ -3,58 +3,19 @@
   font-family: 'Amatic SC', cursive;
 }
 
-body {
+body, .navbar, .navbar-list, .pages-navbar, main, .page-section , .box, footer {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
+}
+
+body, .navbar, .pages-navbar, .box, footer {
   justify-content: space-around;
+}
+
+body {
+  height: 100vh;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-}
-
-.navbar, .navbar-list, .pages-navbar, main, .container, footer {
-  display: flex;
-}
-
-.navbar, footer {
-  align-items: center;
-  font-size: 20px;
-  height: 10vh;
-  justify-content: space-around;
-}
-
-.navbar-list{
-  justify-content: space-between;
-  width: 100%;
-}
-
-.pages-navbar {
-  justify-content: space-around;
-  width: 30vw;
-}
-
-.list {
-  list-style: none;
-  width: 10vw;
-}
-
-.list a {
-  color: black;
-  text-decoration: none;
-}
-
-main {
-  height: 80vh;
-  align-items: center ;
-}
-
-/* .home-container {
-
-} */
-
-.home-img, .contact-img, .about-img {
-  height: 65vh;
-  width: auto;
 }
 
 .shadow {
@@ -63,9 +24,91 @@ main {
 	-webkit-box-shadow: 4px 8px 6px -5px #777;
 }
 
-footer {
+.navbar {
+  font-size: 28px;
+}
+
+.navbar, .pages-navbar, main, .page-section, .box, footer {
+  align-items: center;
+}
+
+.navbar, footer {
+  height: 10vh;
+}
+
+.navbar-list, .container {
+  width: 100%;
+}
+
+.navbar-list {
+  justify-content: space-between;
+}
+
+.pages-navbar {
+  width: 30vw;
+}
+
+.list {
+  list-style: none;
+  width: 10vw;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.list a:hover {
+  color:#b4b1ad;
+}
+
+main {
+  height: 77.5vh;
+}
+
+.list a, .section-text, h3, footer p, footer p a {
+  color: #908a82;
+}
+
+.page-section, footer {
   justify-content: center;
 }
 
+.box {
+  width: 40%;
+}
 
+.home-img, .contact-img, .about-img {
+  height: 65vh;
+  width: auto;
+}
 
+.section-text {
+  width: 75%;
+}
+
+.section-text h2{
+  font-size: 60px;
+  margin: 0;
+}
+
+.section-text p{
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.shadow-inverse {
+	box-shadow: -4px -8px 6px -5px #777;
+	-moz-box-shadow: -4px -8px 6px -5px #777;
+	-webkit-box-shadow: -4px -8px 6px -5px #777;
+}
+
+footer {
+  font-size: 20px;
+}
