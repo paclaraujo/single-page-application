@@ -1,16 +1,19 @@
 export default () => {
   const container = document.createElement("div");
+  container.classList.add("container");
   
   container.innerHTML = `
-    <section class="container">
-      <figure>
-        <img class="contact-img shadow" src="../../assets/contact.jpg">
+    <section class="page-section">
+      <figure class="box">
+        <img class="contact-img shadow" src="../../assets/logo.jpg">
       </figure>
-      <div>
-        <h2>Contacts</h2>
-        <p>Phone: (11) 2345-6789</p>
-        <p>E-mail: cats@cats.com</p>
-        <p>Instagram: @catscats</p>
+      <div class="box">
+        <div class="section-text">
+          <h2>Contacts</h2>
+          <p>Phone: (11) 2345-6789</p>
+          <p>E-mail: cats@cats.com</p>
+          <p>Instagram: @catscats</p>
+        </div>
       </div> 
     </section>  
   `
