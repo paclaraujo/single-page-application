@@ -2,9 +2,9 @@ export default () => {
   const container = document.createElement("div");
   
   container.innerHTML = `
-    <section>
+    <section class="home-container">
       <figure>
-        <img class="home-img" src="../../assets/home.jpg">
+        <img class="home-img shadow" src="../../assets/home.jpg">
       </figure>
       <div>
         <p>We realy love cats</p>
