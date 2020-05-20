@@ -10,9 +10,9 @@ export default () => {
       <div class="box">
         <div class="section-text">
           <h2>Contacts</h2>
-          <p>Phone: (11) 2345-6789</p>
-          <p>E-mail: cats@cats.com</p>
-          <p>Instagram: @catscats</p>
+          <p>Contact us by phone (11 2345-6789),
+          e-mail (cats@cats.com) or Instagram (@catscats).
+          </p>
         </div>
       </div> 
     </section>  
