@@ -1,3 +1,17 @@
-import home from "./pages/home/main.js";
+import routes from './routes.js';
 
-document.getElementById("root").appendChild(home())
+const container = document.querySelector('#root');
+
+const init = () => window.addEventListener('hashchange', renderPage);
+const validateHash = (hash) => hash === ""  ? 'home' : hash.replace('#', '');
+
+const renderPage = () => {
+  const page = validateHash(window.location.hash);
+  container.innerHTML = '';
+  container.appendChild(routes[page]);
+}
+
+window.addEventListener('load', ()=> {
+  renderPage();
+  init();
+});
