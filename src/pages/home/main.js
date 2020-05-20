@@ -2,7 +2,7 @@ export default () => {
   const container = document.createElement("div");
   
   container.innerHTML = `
-    <section class="home-container">
+    <section class="container">
       <figure>
         <img class="home-img shadow" src="../../assets/home.jpg">
       </figure>
